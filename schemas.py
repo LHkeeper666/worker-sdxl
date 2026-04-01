@@ -41,7 +41,7 @@ INPUT_SCHEMA = {
     'guidance_scale': {
         'type': float,
         'required': False,
-        'default': 0.0
+        'default': 0.1
     },
     'strength': {
         'type': float,
