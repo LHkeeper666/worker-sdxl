@@ -11,12 +11,12 @@ INPUT_SCHEMA = {
     'height': {
         'type': int,
         'required': False,
-        'default': 1024
+        'default': 512
     },
     'width': {
         'type': int,
         'required': False,
-        'default': 1024
+        'default': 512
     },
     'seed': {
         'type': int,
@@ -31,7 +31,7 @@ INPUT_SCHEMA = {
     'num_inference_steps': {
         'type': int,
         'required': False,
-        'default': 25
+        'default': 4
     },
     'refiner_inference_steps': {
         'type': int,
@@ -41,7 +41,7 @@ INPUT_SCHEMA = {
     'guidance_scale': {
         'type': float,
         'required': False,
-        'default': 7.5
+        'default': 0.0
     },
     'strength': {
         'type': float,
