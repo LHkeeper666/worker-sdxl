@@ -153,6 +153,10 @@ def generate_image(job):
     # -------------------------------------------------------------------------
     job_input = job["input"]
 
+    # for test
+    job_input["num_inference_steps"] = 4
+    job_input["guidance_scale"] = 0.0
+
     print("[generate_image] job['input'] payload:")
     try:
         print(json.dumps(job_input, indent=2, default=str), flush=True)
